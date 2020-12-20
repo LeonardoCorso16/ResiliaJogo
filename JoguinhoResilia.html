@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatolandia</title>
+    <link rel="stylesheet" href="JoguinhoResilia.css">
+</head>
+<body>
+  <img class="gato" src="https://media1.giphy.com/media/WXB88TeARFVvi/200w.gif?cid=ecf05e47teujaha516m8si862zx93xd98voggipnsyw5sypx&amp;rid=200w.gif" width="248" height="312" alt="dance party cat GIF" style="background: rgb(255, 102, 102);">
+  <img class="gato" src="https://media0.giphy.com/media/12HZukMBlutpoQ/200.gif?cid=ecf05e47teujaha516m8si862zx93xd98voggipnsyw5sypx&amp;rid=200.gif" width="248" height="186" alt="funny cat GIF" style="background: rgb(255, 102, 102);">
+  <img class="gato" src="https://media4.giphy.com/media/mlvseq9yvZhba/giphy.gif?cid=ecf05e47teujaha516m8si862zx93xd98voggipnsyw5sypx&amp;rid=giphy.gif" width="248" height="248" alt="bored cat GIF" style="background: rgb(153, 51, 255);">
+  <img class="gato" src="https://media0.giphy.com/media/jpbnoe3UIa8TU8LM13/200w.gif?cid=ecf05e47ilx4t9ffrgp9xcgs9wsuvtw2ibqbum58boibzeni&amp;rid=200w.gif" width="248" height="248" alt="Cat Party GIF" style="background: rgb(255, 243, 92);">
+  <img class="gato" src="https://media0.giphy.com/media/q1MeAPDDMb43K/200w.gif?cid=ecf05e47ilx4t9ffrgp9xcgs9wsuvtw2ibqbum58boibzeni&amp;rid=200w.gif" width="248" height="155" alt="laser sword cat GIF" style="background: rgb(153, 51, 255);">
+  <img class="gato" src="https://media4.giphy.com/media/JRE3AvLsSRXg360F6l/200.gif?cid=ecf05e47ilx4t9ffrgp9xcgs9wsuvtw2ibqbum58boibzeni&amp;rid=200.gif" width="248" height="180" alt="The Real Housewives Of Beverly Hills Cat GIF by MOODMAN" style="background: rgb(153, 51, 255);">
+
+
+    <div class="iniciarBotao">
+        <button onclick="gabsFase1()"> Começar / Recomeçar!</button>
+      </div>
+    
+
+
+    <script>
+         function gabsFase1(){
+        var nomePersonagem =  prompt ("Parça, tu aproveitou muito o final de semana e sonhou que era um gato(a), diga teu nome de gato(a)? ");
+        var gabsFase1 = confirm ("Olá gato(a)  " + nomePersonagem  +" , Tu estava la tranquilo em casa e veio o Gatobs(Um gato que é um facilitador no curso Gatalia) te chamando para uma rinha de gato no telhado de um vizinho, tu vai colar maluco?. OK para Sim ou CANCEL para Não ");
+
+
+    
+    if(gabsFase1){
+     alert ("Tu e de briga ne gato(a), chegando la tu viu varios gatos tretando no telhado e do nada veio ela, a água da janela da Gataís(A outra facilitadora do curso Gatalia) ela é contra a rinha de gatos e liga para a Luisa Mell");
+     alert ("Tu e o gatobs foram para o xilindró dos gatos. F no chat")
+    }
+    else {
+      alert("Muito bem " + nomePersonagem + " Depois de dizer não para o Gatobs , você foi para a aula da Gatalia. ")
+      gabsFase2();
+      
+    }
+  }
+  function gabsFase2(){
+    var fase2 = confirm('Durante a aula você prestou atenção? OK para Sim. Cancel para Não');
+    if(fase2){
+        alert(" Tu aprendeu tudo sobre vida de Gatos e ta pronto para a vida");
+        gabsFase3();
+    }else{
+        alert("Tu tomou um strigato e foi expulso do mundo. Tu perdeu. F no chat");
+    }
+}
+function gabsFase3(){
+    var fase3 = confirm('O mundo dos Gatos teve uma doença chamada Gatoronga, e ai o Gatobs te chama para ser voluntario da vacina para a cura, você aceita o convite? OK para Sim Cancel para Não');
+
+    if(fase3){
+        alert("F no chat. Tu morreu por suspeita de Gatoronga");
+      
+    }else{
+        alert("Gatobs, morre por suspeita de Gatoronga após tomar a vacina, F no chat. Mas você volta para casa depois dessa aventura ");
+        gabsFase4();
+    }
+}
+
+function gabsFase4(){
+    var fase4 = confirm("Depois de 5 minutos de luto por Gatobs, você tem 2 opções. Criar a vacina ou ser lider da rinha de gatos no telhado da Gataís. OK para a Vacina ou Cancel para Lider da Rinha de gatos? ");
+
+    if(fase4){
+        alert("Você cria a vacina e chama ela de Gatobs e consegue a cura para o mundo dos gatos. Parabéns você venceu ");
+    }else{
+        alert( "Tu assume a rinha e toma mais um banho da Gataís e a Luisa Mel te captura. F no Chat. Você perdeu" );
+      
+    }
+}
+ </script>
+    
+</body>
+</html>
